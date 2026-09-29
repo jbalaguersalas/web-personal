@@ -9,6 +9,10 @@ body{
     color: #222222;
     padding: 40px;
 }
+.container {
+    max-width: 1200px;
+    margin:0 auto;
+}
 
 .main-header {
 display: flex;
@@ -21,6 +25,17 @@ align-items: center;
 margin-left: 20px;
 text-decoration: none;
 color: #333
+}
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.avatar {
+width: 36px; 
+height: 36px;
+border-radius: 50px;
 }
 
 .intro-text {
