@@ -1,89 +1,109 @@
 <!DOCTYPE html>
+<html lang="es">
 <head>
-    <body lang="es"></body>
-   <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Página de ejemplo para aprender HTML">
-     <meta name="author" content="jbalaguer">
-    
-     </head>
-     <div>
-     <header class="main-header">
-        <span class="logo">jbalaguersalas</span>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </nav>
-     </header>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página de ejemplo para aprender HTML">
+  <meta name="author" content="Sarah Chen">
+  <title>Sarah Chen - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-     <main class="container">
-
-<p>I'm jbalaguersalas, design student and explorer of visual languages. I'm passionate about understanding how different design disciplines intersect and create meaningful connections.</p>
-     </main>
-<section  class="projects">
-<article>
-    <div class="Design">
-        <small>Design</small>
-        <h1>Yoga studio rebrand</h1>
-        <a href="#">Explore</a>
+  <!-- ENCABEZADO -->
+  <header class="main-header">
+    <div class="brand">
+      <img src="assets/avatar.png" alt="Sarah Chen" class="avatar">
+      <span class="logo">Sarah Chen</span>
     </div>
-    <img src="assets/Image.png" alt="sisi"> 
-    
+    <nav class="main-nav">
+      <a href="index.html" class="nav-home">Home</a>
+      <a href="#about" class="nav-about">About</a>
+      <a href="#contact" class="nav-contact">Contact</a>
+    </nav>
+  </header>
 
-</article>
-<article>
-<div class="segundo class info">
-    <small>Artwork</small>
-    <h2>Abstract painting</h2>
-    <a href="explore"></a>
+  <!-- CONTENIDO PRINCIPAL -->
+  <main class="container">
 
-</div>
-<img src="assets/Image (1).png" alt="segunda imagen">
-</article>
-<article>
-<div class="tercero class info">
-    <small>Design</small>
-    <h2>Maganize study</h2>
-    <a href="explore"></a>
-</div>
-<img src="assets/3.png" alt="3 imagen">
-    </article>
-    <article>
-     <div class="cuarto class info">
-    <small>Photography</small>
-    <h2>Echoes of Italy</h2>
-    <a href="explore"></a>
-     </div>
-<img src="assets/Puente.png" alt="4 imagen">
-    </article>
-    <article>
-     <div class="quinto class info">
-    <small>Design</small>
-    <h2>Castro Capital branding</h2>
-    <a href="explore"></a>
-     </div>
-<img src="assets/Rectangle 1.png" alt="5 imagen">
-    </article>
-    
-</section>
-<p>I'm dedicated to crafting meaningful visual experiences through a multidisciplinary design approach.</p>
-<a href="#">Discover my skills and passions</a>
-</div>
-     
-     
-      <footer>
-        <nav>
+    <p class="intro-text">
+      I'm Sarah Chen, design student and explorer of visual languages. I'm passionate about understanding how different design disciplines intersect and create meaningful connections.
+    </p>
 
-        <hr>
-<nav class="footer links">
-<a href="example@gmail.com">Email</a>
-<a href="https://behance.net" target="_blank">Behance</a>
-<a href="https://linked.in.com" target="_blank">LinkedIn</a>
-</nav>
+    <!-- SECCIÓN DE PROYECTOS -->
+    <section class="projects">
 
-<p>© Sarah Chen 2025 All Rights Reserved</p>
-     </footer>
-    </body>
+      <!-- Proyecto 1 -->
+      <article class="project-card">
+        <div class="project-info">
+          <small class="tag">Design</small>
+          <h2>Yoga studio rebrand</h2>
+          <a href="#" class="btn-explore">Explore</a>
+        </div>
+        <img src="assets/Image.png" alt="Yoga studio rebrand">
+      </article>
+
+      <!-- Proyecto 2 -->
+      <article class="project-card">
+        <div class="project-info">
+          <small class="tag">Artwork</small>
+          <h2>Abstract painting</h2>
+          <a href="#" class="btn-explore">Explore</a>
+        </div>
+        <img src="assets/Image (1).png" alt="Abstract painting">
+      </article>
+
+      <!-- Proyecto 3 -->
+      <article class="project-card">
+        <div class="project-info">
+          <small class="tag">Design</small>
+          <h2>Magazine study</h2>
+          <a href="#" class="btn-explore">Explore</a>
+        </div>
+        <img src="assets/3.png" alt="Magazine study">
+      </article>
+
+      <!-- Proyecto 4 -->
+      <article class="project-card">
+        <div class="project-info">
+          <small class="tag">Photography</small>
+          <h2>Echoes of Italy</h2>
+          <a href="#" class="btn-explore">Explore</a>
+        </div>
+        <img src="assets/Puente.png" alt="Echoes of Italy">
+      </article>
+
+      <!-- Proyecto 5 -->
+      <article class="project-card">
+        <div class="project-info">
+          <small class="tag">Design</small>
+          <h2>Castro Capital branding</h2>
+          <a href="#" class="btn-explore">Explore</a>
+        </div>
+        <img src="assets/Rectangle 1.png" alt="Castro Capital branding">
+      </article>
+
+    </section>
+
+    <!-- SECCIÓN DE CIERRE -->
+    <div class="outro-section">
+      <p class="outro-text">I'm dedicated to crafting meaningful visual experiences through a multidisciplinary design approach.</p>
+      <a href="#" class="btn-outline">Discover my skills and passions</a>
+    </div>
+
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer>
+    <hr>
+    <div class="footer-links">
+      <a href="mailto:example@gmail.com">Email</a>
+      <a href="https://behance.net" target="_blank">Behance</a>
+      <a href="https://linked.in.com" target="_blank">LinkedIn</a>
+    </div>
+    <p class="copyright">© Sarah Chen 2025 All Rights Reserved</p>
+  </footer>
+
+</body>
 </html>
 
