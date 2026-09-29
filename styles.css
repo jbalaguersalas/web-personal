@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: serif;
+    color: #222222;
+    padding: 40px;
+}
+
+.main-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 50px;
+}
+
+.main-header nav a {
+margin-left: 20px;
+text-decoration: none;
+color: #333
+}
+
