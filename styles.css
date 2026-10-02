@@ -1,4 +1,33 @@
 /* ESTILOS */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header__avatar{
+  width: 32px;
+  height: 32px;
+  border-radius: 50px;
+
+}
+.nav {
+  display: flex;
+  gap: 20px;
+}
+.nav__link {
+  text-decoration: none;
+  color: #666666;
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+.nav__link-active{
+  color: #a86569;
+}
+
 .about {
   margin-bottom: 60px;
 }
