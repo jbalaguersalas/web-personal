@@ -79,7 +79,11 @@ body {
 
 footer { margin-top: 40px; }
 footer hr { border: 0; border-top: 1px solid #ddd; }
-
+.about__image {
+  width: 325px;
+  height: 325px;
+  object-fit: cover; 
+}
 @media (min-width: 800px) {
   .header { height: 70px; }
   .header__avatar { width: 25px; height: 25px; }
