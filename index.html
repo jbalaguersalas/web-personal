@@ -6,13 +6,16 @@
   <meta name="description" content="Página de ejemplo para aprender HTML">
   <meta name="author" content="Web Minimalista">
   <title>Sarah Chen - Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300;6..72,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
   <header class="header container">
   <div class="header__brand">
-    <img src="assets/avatar.png" alt="<h4>Sara Chen</h4>" class="header__avatar">
+    <img src="assets/avatar.png" alt="Sarah Chen" class="header__avatar">
     <span class="header__logo">Sarah Chen</span>
   </div>
   <nav class="nav">
@@ -26,80 +29,80 @@
   <!-- MAIN -->
   <main class="container">
 
-    <p class="intro-text">
-      <h2>Im Sarah Chen, design student and explorer of visual languages. I'm passionate about understanding how different design disciplines intersect and create meaningful connections.
-    </p>
+    <h1 class="intro">
+      I'm Sarah Chen, design student and explorer of visual languages. I'm passionate about understanding how different design disciplines intersect and create meaningful connections.
+    </h1>
 
     <section class="projects">
 
       <!--1 -->
       <article class="project-card">
-        <div class="project-info">
-          <small class="tag">Design</small>
-          <h2>Yoga studio rebrand</h2>
-          <a href="#" class="btn-explore">Explore</a>
+        <div class="project-card__info">
+          <span class="project-card__tag">Design</span>
+          <h2 class="project-card__title">Yoga studio rebrand</h2>
+          <a href="project.html" class="project-card__button">Explore</a>
         </div>
-        <img src="assets/Image.png" alt="Yoga studio rebrand">
+        <img src="assets/Image.png" alt="Yoga studio rebrand" class="project-card__image">
       </article>
 
       <!--2 -->
       <article class="project-card">
-        <div class="project-info">
-          <small class="tag">Artwork</small>
-          <h2>Abstract painting</h2>
-          <a href="#" class="btn-explore">Explore</a>
+        <div class="project-card__info">
+          <span class="project-card__tag">Artwork</span>
+          <h2 class="project-card__title">Abstract paintings</h2>
+          <a href="project.html" class="project-card__button">Explore</a>
         </div>
-        <img src="assets/Image (1).png" alt="Abstract painting">
+        <img src="assets/Image (1).png" alt="Abstract painting" class="project-card__image">
       </article>
 
       <!--3 -->
       <article class="project-card">
-        <div class="project-info">
-          <small class="tag">Design</small>
-          <h2>Magazine study</h2>
-          <a href="#" class="btn-explore">Explore</a>
+        <div class="project-card__info">
+          <span class="project-card__tag">Design</span>
+          <h2 class="project-card__title">Magazine study</h2>
+          <a href="project.html" class="project-card__button">Explore</a>
         </div>
-        <img src="assets/3.png" alt="Magazine study">
+        <img src="assets/3.png" alt="Magazine study" class="project-card__image">
       </article>
 
       <!-- 4 -->
       <article class="project-card">
-        <div class="project-info">
-          <small class="tag">Photography</small>
-          <h2>Echoes of Italy</h2>
-          <a href="#" class="btn-explore">Explore</a>
+        <div class="project-card__info">
+          <span class="project-card__tag">Photography</span>
+          <h2 class="project-card__title">Echoes of Italy</h2>
+          <a href="project.html" class="project-card__button">Explore</a>
         </div>
-        <img src="assets/Puente.png" alt="Echoes of Italy">
+        <img src="assets/Puente.png" alt="Echoes of Italy" class="project-card__image">
       </article>
 
       <!-- 5 -->
       <article class="project-card">
-        <div class="project-info">
-          <small class="tag">Design</small>
-          <h2>Castro Capital branding</h2>
-          <a href="#" class="btn-explore">Explore</a>
+        <div class="project-card__info">
+          <span class="project-card__tag">Design</span>
+          <h2 class="project-card__title">Castro Capital branding</h2>
+          <a href="project.html" class="project-card__button">Explore</a>
         </div>
-        <img src="assets/Rectangle 1.png" alt="Castro Capital branding">
+        <img src="assets/Rectangle 1.png" alt="Castro Capital branding" class="project-card__image">
       </article>
 
     </section>
 
      
-    <div class="outro-section">
-      <p class="outro-text">I'm dedicated to crafting meaningful visual experiences through a multidisciplinary design approach.</p>
-      <a href="#" class="btn-outline">Discover my skills and passions</a>
+    <div class="outro">
+      <p class="outro__text">I'm dedicated to crafting meaningful visual experiences through a multidisciplinary design approach.</p>
+      <a href="about.html" class="outro__button">Discover my skills and passions</a>
     </div>
 
   </main>
 
-  <footer>
-    <hr>
-    <div class="footer-links">
-      <a href="mailto:example@gmail.com">Email</a>
-      <a href="https://behance.net" target="_blank">Behance</a>
-      <a href="https://linked.in.com" target="_blank">LinkedIn</a>
+  <footer class="footer container">
+    <hr class="footer__divider">
+    <div class="footer__links">
+      <a href="mailto:email@ejemplo.com" class="footer__link">Email</a>
+      <a href="https://behance.net" target="_blank" rel="noopener" class="footer__link">Behance</a>
+      <a href="https://linkedin.com" target="_blank" rel="noopener" class="footer__link">LinkedIn</a>
     </div>
-    <p class="copyright">© Sarah Chen 2025 All Rights Reserved</p>
+    <p class="footer__copyright">© Sarah Chen 2025 All Rights Reserved</p>
   </footer>
 
 </body>
