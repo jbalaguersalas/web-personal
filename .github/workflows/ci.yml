@@ -28,3 +28,8 @@ jobs:
 
       #- name: Build de la imagen Docker
       #  run: docker build -t web:pr-${{ github.event.number }} .
+
+      - name: Análisis con SonarQube Cloud
+        uses: SonarSource/sonarqube-scan-action@v8
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}

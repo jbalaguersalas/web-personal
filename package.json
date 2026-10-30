@@ -13,6 +13,6 @@
     "lint": "npm run lint:html && npm run lint:js",
     "lint:html": "npx --yes htmlhint \"**/*.html\"",
     "lint:js": "eslint .",
-    "test": "node --test"
+    "test": "node --test --experimental-test-coverage --test-coverage-exclude=\"tests/**\" --test-reporter=spec --test-reporter-destination=stdout --test-reporter=lcov --test-reporter-destination=lcov.info"
   }
 }
