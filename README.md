@@ -24,11 +24,3 @@ Algunas cosas concretas del CSS:
 ## Cómo verlo
 
 Descarga el repositorio y abre `index.html` en el navegador. No hay que instalar nada.
-
-## Qué aprendí
-
-**A repetir la estructura en varias páginas.** Las tres páginas comparten cabecera y pie. Si cambio el menú en una, tengo que acordarme de cambiarlo en las otras dos.
-
-**A maquetar primero para móvil.** Los estilos base son para pantalla pequeña, en columna. Las media queries con `min-width` van añadiendo cambios cuando hay más espacio.
-
-**A ir poco a poco con Git.** El historial tiene más de 20 commits. Primero terminé el HTML y después me puse con el CSS, haciendo un commit cada vez que algo quedaba bien.
