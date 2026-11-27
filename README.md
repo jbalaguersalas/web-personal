@@ -6,7 +6,7 @@ Práctica del bootcamp de Full Stack de The Bridge.
 
 El portfolio de Sarah Chen, una estudiante de diseño inventada. El bootcamp nos dio el diseño ya hecho y el trabajo era maquetarlo con HTML y CSS lo más parecido posible. Los textos, los proyectos y las imágenes vienen del diseño.
 
-Después usé esta misma web en la [práctica de Docker](https://github.com/jbalaguersalas/-Pr-ctica-Docker-Web-Minimalista), donde la sirvo con nginx.
+Después usé esta misma web en la [práctica de Docker](https://github.com/jbalaguersalas/docker-web-minimalista), donde la sirvo con nginx.
 
 ## Qué hice
 
